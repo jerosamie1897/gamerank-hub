@@ -73,7 +73,7 @@ if (searchResults && searchSummary && searchQuery) {
 
     searchSummary.textContent = matches.length
       ? `${matches.length} result${matches.length === 1 ? "" : "s"} for “${query}”`
-      : `No published GameRank Hub page matches “${query}”. Try a genre, platform, or broader gaming topic.`;
+      : `No published GameRank Hub page matches “${query}”.`;
 
     matches.forEach((page) => {
       const article = document.createElement("article");
@@ -88,5 +88,22 @@ if (searchResults && searchSummary && searchQuery) {
       article.append(heading, description);
       searchResults.append(article);
     });
+
+    if (!matches.length) {
+      const worldwide = document.createElement("div");
+      worldwide.className = "worldwide-search";
+      const heading = document.createElement("h2");
+      const description = document.createElement("p");
+      const link = document.createElement("a");
+      heading.textContent = "Search worldwide";
+      description.textContent = `Find current web results, official pages, news, videos, and guides for “${query}”.`;
+      link.className = "button button-primary";
+      link.href = `https://www.google.com/search?q=${encodeURIComponent(`${query} game`)}`;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Search Google worldwide";
+      worldwide.append(heading, description, link);
+      searchResults.append(worldwide);
+    }
   }
 }
