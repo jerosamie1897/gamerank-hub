@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jerosamie1897.github.io/gamerank-hub/sitemap.xml
