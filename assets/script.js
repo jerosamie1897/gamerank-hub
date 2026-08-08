@@ -51,15 +51,21 @@ if (searchResults && searchSummary && searchQuery) {
   if (!query) {
     searchSummary.textContent = "Enter a game, genre, platform, or gaming topic to search the site.";
   } else {
-    const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    const stopWords = new Set(["a", "an", "and", "for", "in", "of", "on", "the", "to", "with"]);
+    const normalizedQuery = query.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, " ");
+    const allTerms = normalizedQuery.split(/\s+/).filter(Boolean);
+    const terms = allTerms.filter((term) => !stopWords.has(term));
+    const effectiveTerms = terms.length ? terms : allTerms;
     const matches = pages
       .map((page) => {
         const title = page.title.toLowerCase();
         const searchable = `${title} ${page.description.toLowerCase()} ${page.keywords}`;
-        const score = terms.reduce((total, term) => {
+        const everyTermMatches = effectiveTerms.every((term) => searchable.includes(term));
+        const score = effectiveTerms.reduce((total, term) => {
           if (!searchable.includes(term)) return total;
           return total + (title.includes(term) ? 3 : 1);
-        }, 0);
+        }, searchable.includes(normalizedQuery) ? 5 : 0);
+        if (!everyTermMatches) return { ...page, score: 0 };
         return { ...page, score };
       })
       .filter((page) => page.score > 0)
@@ -67,7 +73,7 @@ if (searchResults && searchSummary && searchQuery) {
 
     searchSummary.textContent = matches.length
       ? `${matches.length} result${matches.length === 1 ? "" : "s"} for “${query}”`
-      : `No results found for “${query}”. Try a genre, platform, or broader gaming term.`;
+      : `No published GameRank Hub page matches “${query}”. Try a genre, platform, or broader gaming topic.`;
 
     matches.forEach((page) => {
       const article = document.createElement("article");
