@@ -15,7 +15,6 @@ document.querySelectorAll("[data-year]").forEach((element) => {
 const searchResults = document.querySelector("#search-results");
 const searchSummary = document.querySelector("#search-summary");
 const searchQuery = document.querySelector("#search-query");
-const worldwideSearch = document.querySelector("#worldwide-search");
 
 if (searchResults && searchSummary && searchQuery) {
   const pages = [
@@ -90,8 +89,21 @@ if (searchResults && searchSummary && searchQuery) {
       searchResults.append(article);
     });
 
-    if (!matches.length && worldwideSearch) {
-      worldwideSearch.hidden = false;
+    if (!matches.length) {
+      const worldwide = document.createElement("div");
+      worldwide.className = "worldwide-search";
+      const heading = document.createElement("h2");
+      const description = document.createElement("p");
+      const link = document.createElement("a");
+      heading.textContent = "Search worldwide";
+      description.textContent = `Find current web results, official pages, news, videos, and guides for “${query}”.`;
+      link.className = "button button-primary";
+      link.href = `https://www.google.com/search?q=${encodeURIComponent(`${query} game`)}`;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Search Google worldwide";
+      worldwide.append(heading, description, link);
+      searchResults.append(worldwide);
     }
   }
 }
