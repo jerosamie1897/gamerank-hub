@@ -102,6 +102,7 @@ p { margin: 0 0 1.1rem; }
 .accent-green { color: #08765a; }.accent-green h3, .accent-green p:not(.card-kicker) { color: var(--ink); }
 .accent-orange { color: #a9420d; }.accent-orange h3, .accent-orange p:not(.card-kicker) { color: var(--ink); }
 .section-dark { color: white; background: var(--ink); }
+.section-dark .eyebrow, .site-footer .brand strong { color: var(--lime); }
 .section-heading.light > p { color: #aaa3bf; }
 .mood-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
 .mood-card { padding: 28px; background: #201b34; border: 1px solid #39324d; border-radius: 18px; }
