@@ -15,7 +15,7 @@ TODAY = date(2026, 8, 12)
 TODAY_STR = str(TODAY)
 RFC822_DATE = "Wed, 12 Aug 2026 00:00:00 GMT"
 SITE_AUTHOR = "GameRank Hub Editorial Team"
-STYLES_VERSION = "20260812-5"
+STYLES_VERSION = "20260812-6"
 SCRIPT_VERSION = "20260812-6"
 STATIC_LASTMOD = "2026-08-11"
 MONTH_NAMES = (
@@ -580,7 +580,7 @@ def nav(prefix: str = "", active: str = "") -> str:
     return f"""
   <header class="site-header">
     <div class="shell nav-wrap">
-      <a class="brand" href="{prefix}index.html" aria-label="GameRank Hub home"><span class="brand-mark" aria-hidden="true">G</span><span>GameRank <strong>Hub</strong></span></a>
+      <a class="brand" href="{prefix}index.html" aria-label="GameRank Hub"><span class="brand-mark" aria-hidden="true">G</span><span>GameRank <strong>Hub</strong></span></a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">{rendered}
         <form class="site-search" action="{prefix}search.html" method="get" role="search"><label class="sr-only" for="nav-search">Search GameRank Hub</label><input id="nav-search" name="q" type="search" placeholder="Search" required><button type="submit">Search</button></form>

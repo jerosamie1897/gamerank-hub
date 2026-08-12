@@ -26,6 +26,8 @@ The generator rebuilds review, guide, blog, visual, search-index, sitemap, RSS, 
 
 The community API requires PHP 8.3 with PDO SQLite. Its database and secrets belong outside the web root at `/var/lib/gamerankhub` and `/etc/gamerankhub`.
 
+Production traffic reporting is available through `ops/traffic-report.py`. The Nginx virtual host should include `ops/nginx-cloudflare-real-ip.conf` when Cloudflare proxies the domain, then write a dedicated combined-format access log to `/var/log/nginx/gamerankhub.access.log`. The report counts visitors in memory without writing IP addresses to its JSON output.
+
 ## GitHub Pages deployment
 
 The production canonical URL is:
