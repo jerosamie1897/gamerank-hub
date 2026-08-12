@@ -1,0 +1,652 @@
+[
+  {
+    "title": "GameRank Hub",
+    "url": "index.html",
+    "canonical": "https://gamerankhub.com/",
+    "description": "Use sourced game fit profiles, practical guides, and editorial explainers to choose what to play next.",
+    "keywords": "game hub free games fit profiles gaming guides",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "Best Free Games",
+    "url": "best-free-games.html",
+    "canonical": "https://gamerankhub.com/best-free-games.html",
+    "description": "Compare free games by genre and platform.",
+    "keywords": "best free games free online games",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "Browser Games",
+    "url": "browser-games.html",
+    "canonical": "https://gamerankhub.com/browser-games.html",
+    "description": "Find browser games that work without downloads.",
+    "keywords": "browser games no download",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "About GameRank Hub",
+    "url": "about.html",
+    "canonical": "https://gamerankhub.com/about.html",
+    "description": "Read the editorial policy and publishing principles behind GameRank Hub.",
+    "keywords": "about editorial policy gamerank hub",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub Community",
+    "url": "community.html",
+    "canonical": "https://gamerankhub.com/community.html",
+    "description": "Read moderated player comments and community ratings.",
+    "keywords": "community ratings player comments",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub Update Log",
+    "url": "updates.html",
+    "canonical": "https://gamerankhub.com/updates.html",
+    "description": "Track material site and editorial updates.",
+    "keywords": "update log editorial changes",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub Privacy Notice",
+    "url": "privacy.html",
+    "canonical": "https://gamerankhub.com/privacy.html",
+    "description": "Understand privacy, moderation, and retention information.",
+    "keywords": "privacy cookies moderation retention",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub Community Guidelines",
+    "url": "community-guidelines.html",
+    "canonical": "https://gamerankhub.com/community-guidelines.html",
+    "description": "Rules for constructive ratings and comments.",
+    "keywords": "community guidelines moderation comments",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub 简体中文",
+    "url": "zh-cn/",
+    "canonical": "https://gamerankhub.com/zh-cn/",
+    "description": "简体中文游戏评测与攻略入口。",
+    "keywords": "中文 游戏 评测 攻略",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub 日本語",
+    "url": "ja/",
+    "canonical": "https://gamerankhub.com/ja/",
+    "description": "日本語のゲームレビューとガイド。",
+    "keywords": "日本語 ゲーム レビュー ガイド",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub 한국어",
+    "url": "ko/",
+    "canonical": "https://gamerankhub.com/ko/",
+    "description": "한국어 게임 리뷰와 가이드.",
+    "keywords": "한국어 게임 리뷰 가이드",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "GameRank Hub العربية",
+    "url": "ar/",
+    "canonical": "https://gamerankhub.com/ar/",
+    "description": "مراجعات ألعاب وأدلة باللغة العربية.",
+    "keywords": "العربية ألعاب مراجعات أدلة",
+    "kind": "static",
+    "published": "",
+    "checked": "2026-08-11"
+  },
+  {
+    "title": "Fortnite Before You Play: A Fit Guide for Social Squads and Zero-Build Newcomers",
+    "url": "reviews/fortnite.html",
+    "canonical": "https://gamerankhub.com/reviews/fortnite.html",
+    "description": "Use this sourced Fortnite fit profile to decide if its short sessions, squad focus, seasonal churn, and cosmetic economy match what you want.",
+    "keywords": "fortnite review before you play fit guide social squad shooter battle royale / creator platform free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "VALORANT Before You Play: Is It a Fit for Patient Team Shooters?",
+    "url": "reviews/valorant.html",
+    "canonical": "https://gamerankhub.com/reviews/valorant.html",
+    "description": "This sourced VALORANT fit profile helps you weigh long matches, agent roles, communication needs, and cosmetic-only monetization before you commit.",
+    "keywords": "valorant review before you play fit guide round-based tactical shooter tactical hero shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Counter-Strike 2 Before You Play: A Fit Guide for Competitive PC Players",
+    "url": "reviews/counter-strike-2.html",
+    "canonical": "https://gamerankhub.com/reviews/counter-strike-2.html",
+    "description": "Read this sourced Counter-Strike 2 fit profile before you commit to its PC-only ladder, map learning curve, and cosmetic-market business model.",
+    "keywords": "counter-strike 2 review before you play fit guide classic tactical shooter tactical shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Apex Legends Before You Play: Is It a Fit for Movement-Focused Trio Players?",
+    "url": "reviews/apex-legends.html",
+    "canonical": "https://gamerankhub.com/reviews/apex-legends.html",
+    "description": "Use this sourced Apex Legends fit profile to judge its movement, squad dependence, legend learning curve, and event-driven cosmetic economy.",
+    "keywords": "apex legends review before you play fit guide movement-heavy squad battle royale hero battle royale free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Warframe Before You Play: A Fit Guide for Co-op Loot Hobbyists",
+    "url": "reviews/warframe.html",
+    "canonical": "https://gamerankhub.com/reviews/warframe.html",
+    "description": "This sourced Warframe fit profile covers its fast missions, dense long-term progression, optional spending pressure, and solo-or-co-op flexibility.",
+    "keywords": "warframe review before you play fit guide fast co-op loot progression cooperative action rpg free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Genshin Impact Before You Play: Is It a Fit for Solo Explorers Who Pace Spending?",
+    "url": "reviews/genshin-impact.html",
+    "canonical": "https://gamerankhub.com/reviews/genshin-impact.html",
+    "description": "Read this sourced Genshin Impact fit profile before you commit to its exploration-first structure, resin pacing, and gacha economy.",
+    "keywords": "genshin impact review before you play fit guide solo exploration with live-service systems open-world action rpg free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Rocket League Before You Play: A Fit Guide for Quick Competitive Sessions",
+    "url": "reviews/rocket-league.html",
+    "canonical": "https://gamerankhub.com/reviews/rocket-league.html",
+    "description": "Use this sourced Rocket League fit profile to weigh its short matches, high mechanical ceiling, and cosmetic-only monetization before you install.",
+    "keywords": "rocket league review before you play fit guide physics-based competitive sports sports action free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "League of Legends Before You Play: A Fit Guide for Long-Term Competitive Teammates",
+    "url": "reviews/league-of-legends.html",
+    "canonical": "https://gamerankhub.com/reviews/league-of-legends.html",
+    "description": "This sourced League of Legends fit profile helps you judge match length, team friction, champion learning, and cosmetic-led monetization before you commit.",
+    "keywords": "league of legends review before you play fit guide team strategy arena moba free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Dota 2 Before You Play: Is It a Fit for Strategy-Heavy Teams?",
+    "url": "reviews/dota-2.html",
+    "canonical": "https://gamerankhub.com/reviews/dota-2.html",
+    "description": "Read this sourced Dota 2 fit profile before you commit to its long matches, very high learning curve, and strategy-first social demands.",
+    "keywords": "dota 2 review before you play fit guide systems-heavy team strategy moba free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Overwatch 2 Before You Play: A Fit Guide for Hero-Swap Team Players",
+    "url": "reviews/overwatch-2.html",
+    "canonical": "https://gamerankhub.com/reviews/overwatch-2.html",
+    "description": "Use this sourced Overwatch 2 fit profile to judge quick session length, role readability, hero swapping, and battle-pass pressure before you queue.",
+    "keywords": "overwatch 2 review before you play fit guide objective-based hero combat hero shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Destiny 2 Before You Play: Is It a Fit for Co-op Groups Wanting Endgame Raids?",
+    "url": "reviews/destiny-2.html",
+    "canonical": "https://gamerankhub.com/reviews/destiny-2.html",
+    "description": "Read this sourced Destiny 2 fit profile before you commit to its excellent gunplay, group endgame, and paid expansion structure.",
+    "keywords": "destiny 2 review before you play fit guide loot shooter with co-op endgame online action shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Path of Exile Before You Play: A Fit Guide for Build-First ARPG Players",
+    "url": "reviews/path-of-exile.html",
+    "canonical": "https://gamerankhub.com/reviews/path-of-exile.html",
+    "description": "Use this sourced Path of Exile fit profile to judge build complexity, league structure, stash-tab pressure, and solo-friendly progression before you start.",
+    "keywords": "path of exile review before you play fit guide build-first loot rpg action rpg free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Roblox Before You Play: A Fit Guide for Families and Group Variety",
+    "url": "reviews/roblox.html",
+    "canonical": "https://gamerankhub.com/reviews/roblox.html",
+    "description": "This sourced Roblox fit profile helps you judge variety, social exposure, household controls, and Robux monetization before you jump in.",
+    "keywords": "roblox review before you play fit guide social variety platform user-created game platform free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Fall Guys Before You Play: A Fit Guide for Casual Party Sessions",
+    "url": "reviews/fall-guys.html",
+    "canonical": "https://gamerankhub.com/reviews/fall-guys.html",
+    "description": "Use this sourced Fall Guys fit profile to weigh short party rounds, mixed-skill group appeal, and event-driven cosmetics before you install.",
+    "keywords": "fall guys review before you play fit guide light party competition party platformer free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Halo Infinite Multiplayer Before You Play: Is It a Fit for Arena Shooter Fans?",
+    "url": "reviews/halo-infinite.html",
+    "canonical": "https://gamerankhub.com/reviews/halo-infinite.html",
+    "description": "This sourced Halo Infinite Multiplayer fit profile helps you judge arena pacing, equal starts, map knowledge, and cosmetic-only monetization before you queue.",
+    "keywords": "halo infinite multiplayer review before you play fit guide arena objective shooter arena shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "THE FINALS Before You Play: A Fit Guide for Destruction-Driven Squads",
+    "url": "reviews/the-finals.html",
+    "canonical": "https://gamerankhub.com/reviews/the-finals.html",
+    "description": "Read this sourced THE FINALS fit profile before you commit to its destructible arenas, squad reliance, and seasonal cosmetic economy.",
+    "keywords": "the finals review before you play fit guide destruction-driven squad shooter team objective shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Marvel Rivals Before You Play: A Fit Guide for Accessible Hero-Shooter Groups",
+    "url": "reviews/marvel-rivals.html",
+    "canonical": "https://gamerankhub.com/reviews/marvel-rivals.html",
+    "description": "Use this sourced Marvel Rivals fit profile to weigh roster size, team-up synergy, quick sessions, and cosmetic monetization before you jump in.",
+    "keywords": "marvel rivals review before you play fit guide hero fantasy team combat third-person hero shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "PUBG: Battlegrounds Before You Play: Is It a Fit for Slower Battle Royale Tension?",
+    "url": "reviews/pubg-battlegrounds.html",
+    "canonical": "https://gamerankhub.com/reviews/pubg-battlegrounds.html",
+    "description": "This sourced PUBG: Battlegrounds fit profile helps you judge survival pacing, recoil harshness, and pass-based monetization before you commit.",
+    "keywords": "pubg: battlegrounds review before you play fit guide slow-burn survival shooter battle royale shooter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Hearthstone Before You Play: A Fit Guide for Short Strategic Mobile Sessions",
+    "url": "reviews/hearthstone.html",
+    "canonical": "https://gamerankhub.com/reviews/hearthstone.html",
+    "description": "Use this sourced Hearthstone fit profile to judge match length, collection pressure, mobile convenience, and pack-driven monetization before you install.",
+    "keywords": "hearthstone review before you play fit guide turn-based ladder strategy digital card game free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Teamfight Tactics Before You Play: A Fit Guide for Planning-Heavy Auto Battler Fans",
+    "url": "reviews/teamfight-tactics.html",
+    "canonical": "https://gamerankhub.com/reviews/teamfight-tactics.html",
+    "description": "Read this sourced Teamfight Tactics fit profile before you commit to its long matches, set relearning, and cosmetic-first monetization.",
+    "keywords": "teamfight tactics review before you play fit guide economy-and-positioning strategy auto battler free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Brawlhalla Before You Play: Is It a Fit for Cross-Platform Fighting Nights?",
+    "url": "reviews/brawlhalla.html",
+    "canonical": "https://gamerankhub.com/reviews/brawlhalla.html",
+    "description": "Use this sourced Brawlhalla fit profile to judge cross-play, short rounds, unlock pressure, and casual-versus-ranked appeal before you install.",
+    "keywords": "brawlhalla review before you play fit guide cross-platform fighting game platform fighter free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "eFootball Before You Play: A Fit Guide for Free Football Match Sessions",
+    "url": "reviews/efootball.html",
+    "canonical": "https://gamerankhub.com/reviews/efootball.html",
+    "description": "This sourced eFootball fit profile helps you weigh football match feel, live squad-building systems, and monetization pressure before you install.",
+    "keywords": "efootball review before you play fit guide head-to-head sports live service football simulation free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Trackmania Before You Play: A Fit Guide for Quick Time-Trial Improvement",
+    "url": "reviews/trackmania.html",
+    "canonical": "https://gamerankhub.com/reviews/trackmania.html",
+    "description": "Use this sourced Trackmania fit profile to judge instant restarts, short sessions, asynchronous competition, and access-tier questions before you install.",
+    "keywords": "trackmania review before you play fit guide asynchronous precision racing time-trial racing free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "The Sims 4 Before You Play: Is It a Fit for Creative Sandbox Storytellers?",
+    "url": "reviews/the-sims-4.html",
+    "canonical": "https://gamerankhub.com/reviews/the-sims-4.html",
+    "description": "This sourced The Sims 4 fit profile helps you weigh free-base access, expansion cost creep, and self-directed sandbox play before you download.",
+    "keywords": "the sims 4 review before you play fit guide solo sandbox storytelling life simulation free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Guild Wars 2 Before You Play: A Fit Guide for Flexible MMO Explorers",
+    "url": "reviews/guild-wars-2.html",
+    "canonical": "https://gamerankhub.com/reviews/guild-wars-2.html",
+    "description": "Use this sourced Guild Wars 2 fit profile to weigh free base access, exploration-first MMO design, and expansion-gated progression before you start.",
+    "keywords": "guild wars 2 review before you play fit guide exploration-forward mmo online role-playing game free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Lost Ark Before You Play: A Fit Guide for Action Combat and Scheduled Endgame",
+    "url": "reviews/lost-ark.html",
+    "canonical": "https://gamerankhub.com/reviews/lost-ark.html",
+    "description": "Read this sourced Lost Ark fit profile before you commit to its flashy combat, roster systems, and schedule-heavy endgame structure.",
+    "keywords": "lost ark review before you play fit guide arpg combat inside an mmo schedule online action rpg free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "RuneScape Before You Play: Is It a Fit for Open-Ended Long-Term Progress?",
+    "url": "reviews/runescape.html",
+    "canonical": "https://gamerankhub.com/reviews/runescape.html",
+    "description": "Use this sourced RuneScape fit profile to judge free entry, membership value, legacy interface friction, and open-ended progression before you begin.",
+    "keywords": "runescape review before you play fit guide open-ended account progression online role-playing game free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "EVE Online Before You Play: A Fit Guide for Corporation-Driven Space Strategy",
+    "url": "reviews/eve-online.html",
+    "canonical": "https://gamerankhub.com/reviews/eve-online.html",
+    "description": "Read this sourced EVE Online fit profile before you commit to its corporation focus, economy depth, Alpha/Omega model, and real-loss tension.",
+    "keywords": "eve online review before you play fit guide player-driven economy and corporation strategy space mmo free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Dauntless Before You Play: A Fit Guide for Co-op Hunt Sessions",
+    "url": "reviews/dauntless.html",
+    "canonical": "https://gamerankhub.com/reviews/dauntless.html",
+    "description": "Use this sourced Dauntless fit profile to weigh short co-op hunts, repetitive progression, and cosmetic monetization before you install.",
+    "keywords": "dauntless review before you play fit guide repeatable co-op boss hunts cooperative action rpg free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "World of Tanks Before You Play: Is It a Fit for Slow Tactical Vehicle Battles?",
+    "url": "reviews/world-of-tanks.html",
+    "canonical": "https://gamerankhub.com/reviews/world-of-tanks.html",
+    "description": "This sourced World of Tanks fit profile helps you weigh slow tactical pacing, tech-tree grind, and premium-time pressure before you commit.",
+    "keywords": "world of tanks review before you play fit guide slow tactical team combat vehicle combat free game",
+    "kind": "review",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Choose a Gaming Sensitivity You Can Keep",
+    "url": "guides/choose-gaming-sensitivity.html",
+    "canonical": "https://gamerankhub.com/guides/choose-gaming-sensitivity.html",
+    "description": "A practical sensitivity guide with a repeatable checklist, one real-world scenario, common mistakes, success criteria, and source links.",
+    "keywords": "how to choose a gaming sensitivity you can keep gaming guide controls checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Improve Aim Without Endless Grinding",
+    "url": "guides/improve-aim-without-grinding.html",
+    "canonical": "https://gamerankhub.com/guides/improve-aim-without-grinding.html",
+    "description": "A practical guide to aim improvement that favors short drills, live transfer, realistic review, and sustainable routines over grind-for-grind's-sake.",
+    "keywords": "how to improve aim without endless grinding gaming guide controls checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Optimize Game Settings for Stable FPS",
+    "url": "guides/optimize-fps-settings.html",
+    "canonical": "https://gamerankhub.com/guides/optimize-fps-settings.html",
+    "description": "A practical FPS optimization guide with a checklist, one scenario, stable-setting process, mistakes, success criteria, and sources.",
+    "keywords": "how to optimize game settings for stable fps gaming guide performance checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Reduce Input Lag Safely",
+    "url": "guides/reduce-input-lag.html",
+    "canonical": "https://gamerankhub.com/guides/reduce-input-lag.html",
+    "description": "A practical input-lag guide with checklist, scenario, safe process, mistakes, success criteria, and sources.",
+    "keywords": "how to reduce input lag safely gaming guide performance checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Multiplayer Beginner Checklist: Your First Ten Matches",
+    "url": "guides/multiplayer-beginner-checklist.html",
+    "canonical": "https://gamerankhub.com/guides/multiplayer-beginner-checklist.html",
+    "description": "A practical first-ten-matches guide with checklist, scenario, process, mistakes, success criteria, and source links.",
+    "keywords": "multiplayer beginner checklist: your first ten matches gaming guide teamwork checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Clear Team Communication Without Overcalling",
+    "url": "guides/clear-team-communication.html",
+    "canonical": "https://gamerankhub.com/guides/clear-team-communication.html",
+    "description": "A practical communication guide with checklist, scenario, process, mistakes, success criteria, and sources for groups that want calmer multiplayer calls.",
+    "keywords": "clear team communication without overcalling gaming guide teamwork checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Controller Settings Guide for New Players",
+    "url": "guides/controller-settings-guide.html",
+    "canonical": "https://gamerankhub.com/guides/controller-settings-guide.html",
+    "description": "A practical controller settings guide with checklist, scenario, process, mistakes, success criteria, and source links.",
+    "keywords": "controller settings guide for new players gaming guide controls checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Keyboard and Mouse Basics for New PC Players",
+    "url": "guides/keyboard-mouse-basics.html",
+    "canonical": "https://gamerankhub.com/guides/keyboard-mouse-basics.html",
+    "description": "A practical keyboard-and-mouse guide with checklist, scenario, process, mistakes, success criteria, and source links.",
+    "keywords": "keyboard and mouse basics for new pc players gaming guide controls checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Enjoy Free-to-Play Games Without Overspending",
+    "url": "guides/free-to-play-spending.html",
+    "canonical": "https://gamerankhub.com/guides/free-to-play-spending.html",
+    "description": "A practical free-to-play spending guide with checklist, scenario, process, mistakes, success criteria, and source links.",
+    "keywords": "how to enjoy free-to-play games without overspending gaming guide safety checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Family Gaming Safety and Parental Controls Guide",
+    "url": "guides/family-gaming-safety.html",
+    "canonical": "https://gamerankhub.com/guides/family-gaming-safety.html",
+    "description": "A family gaming safety guide with a setup checklist, household scenario, practical process, mistakes, success criteria, and source links.",
+    "keywords": "family gaming safety and parental controls guide gaming guide safety checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Cross-Play Guide: Playing With Friends Across Platforms",
+    "url": "guides/crossplay-guide.html",
+    "canonical": "https://gamerankhub.com/guides/crossplay-guide.html",
+    "description": "A cross-play guide with checklist, friend-group scenario, practical process, mistakes, success criteria, and source links.",
+    "keywords": "cross-play guide: playing with friends across platforms gaming guide setup checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Cloud Gaming Guide for Beginners",
+    "url": "guides/cloud-gaming-guide.html",
+    "canonical": "https://gamerankhub.com/guides/cloud-gaming-guide.html",
+    "description": "A cloud gaming guide with checklist, travel or low-spec scenario, decision process, mistakes, success criteria, and source links.",
+    "keywords": "cloud gaming guide for beginners gaming guide setup checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Make Browser Games Run Better",
+    "url": "guides/browser-game-performance.html",
+    "canonical": "https://gamerankhub.com/guides/browser-game-performance.html",
+    "description": "A practical browser-game performance guide with checklist, scenario, process, mistakes, success criteria, and sources.",
+    "keywords": "how to make browser games run better gaming guide performance checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Healthy Gaming Setup: Comfort, Breaks, Audio and Posture",
+    "url": "guides/healthy-gaming-setup.html",
+    "canonical": "https://gamerankhub.com/guides/healthy-gaming-setup.html",
+    "description": "A practical healthy gaming setup guide with checklist, scenario, process, mistakes, success criteria, and sources.",
+    "keywords": "healthy gaming setup: comfort, breaks, audio and posture gaming guide wellbeing checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How We Build a Game Fit Profile Without Pretending It Is a Scored Review",
+    "url": "guides/how-we-review-games.html",
+    "canonical": "https://gamerankhub.com/guides/how-we-review-games.html",
+    "description": "An editorial methodology guide covering reader intent, official-source use, visible limitations, and why the old URL now points to a fit-profile process.",
+    "keywords": "how we build a game fit profile without pretending it is a scored review gaming guide editorial checklist practical",
+    "kind": "guide",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How GameRank Hub Updates Rankings and Fit Profiles Without Fake Freshness",
+    "url": "blog/how-we-update-rankings.html",
+    "canonical": "https://gamerankhub.com/blog/how-we-update-rankings.html",
+    "description": "A transparent look at how GameRank Hub updates fit profiles, ranking hubs, and dates without pretending every minor patch changed the whole decision.",
+    "keywords": "how gamerank hub updates rankings and fit profiles without fake freshness gaming editorial analysis free games fit profiles",
+    "kind": "blog",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "How to Choose a Game for Short Sessions That Still Feels Worth It",
+    "url": "blog/best-game-for-short-sessions.html",
+    "canonical": "https://gamerankhub.com/blog/best-game-for-short-sessions.html",
+    "description": "A practical article on choosing games for short sessions by looking past the advertised match timer and toward the real time cost around each play block.",
+    "keywords": "how to choose a game for short sessions that still feels worth it gaming editorial analysis free games fit profiles",
+    "kind": "blog",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "What Makes a Free Game Actually Player-Friendly?",
+    "url": "blog/what-makes-a-good-free-game.html",
+    "canonical": "https://gamerankhub.com/blog/what-makes-a-good-free-game.html",
+    "description": "A practical framework for judging whether a free game is truly player-friendly, from access and onboarding to monetization clarity and return-player respect.",
+    "keywords": "what makes a free game actually player-friendly? gaming editorial analysis free games fit profiles",
+    "kind": "blog",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Seven Checks Before You Download a New Game",
+    "url": "blog/before-you-download-a-new-game.html",
+    "canonical": "https://gamerankhub.com/blog/before-you-download-a-new-game.html",
+    "description": "A practical pre-download article covering compatibility, time cost, social requirements, accessibility, spending model, update burden, and exit cost.",
+    "keywords": "seven checks before you download a new game gaming editorial analysis free games fit profiles",
+    "kind": "blog",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Free Game Fit Profiles: Choose by Session Length, Social Shape, and Platform",
+    "url": "reviews/index.html",
+    "canonical": "https://gamerankhub.com/reviews/index.html",
+    "description": "Use this decision hub to compare 30 free or free-entry games by time commitment, play style, platform support, and spending friction.",
+    "keywords": "game reviews fit profiles free games session length platform",
+    "kind": "review-hub",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "Practical Gaming Guides: Solve Controls, Performance, Safety, and Setup Problems",
+    "url": "guides/index.html",
+    "canonical": "https://gamerankhub.com/guides/index.html",
+    "description": "Use these practical gaming guides to fix settings, plan multiplayer sessions, handle free-to-play spending, and understand the site's editorial method.",
+    "keywords": "gaming guides controls performance safety setup",
+    "kind": "guide-hub",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "GameRank Hub Blog: Better Ways to Judge Free Games and Your Next Download",
+    "url": "blog/index.html",
+    "canonical": "https://gamerankhub.com/blog/index.html",
+    "description": "Read short editorial pieces about free-game fairness, short-session fit, smarter download decisions, and how GameRank Hub updates its profiles.",
+    "keywords": "gaming blog free games short sessions editorial updates",
+    "kind": "blog-hub",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  },
+  {
+    "title": "GameRank Hub FAQ: Fit Profiles, Updates, Sources, and Limits",
+    "url": "faq.html",
+    "canonical": "https://gamerankhub.com/faq.html",
+    "description": "Answers about GameRank Hub's fit profiles, update dates, official sources, spending warnings, and editorial limitations.",
+    "keywords": "faq fit profiles update policy editorial limits",
+    "kind": "faq",
+    "published": "2026-08-12",
+    "checked": "2026-08-12"
+  }
+]

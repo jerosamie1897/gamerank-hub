@@ -1,27 +1,28 @@
 param(
-  [Parameter(Mandatory = $true)]
+  [Parameter(Mandatory = $false)]
   [ValidatePattern('^https://')]
-  [string]$SiteUrl
+  [string]$SiteUrl = 'https://gamerankhub.com'
 )
 
 $baseUrl = $SiteUrl.TrimEnd('/')
 $lastModified = Get-Date -Format 'yyyy-MM-dd'
-$pages = @(
-  @{ Path = '/'; Priority = '1.0' }
-  @{ Path = '/best-free-games.html'; Priority = '0.9' }
-  @{ Path = '/browser-games.html'; Priority = '0.9' }
-  @{ Path = '/game-guides.html'; Priority = '0.9' }
-  @{ Path = '/about.html'; Priority = '0.5' }
-)
+$excluded = @('search.html')
+$pages = Get-ChildItem -Path $PSScriptRoot -Filter '*.html' -File -Recurse |
+  Where-Object {
+    $relative = [IO.Path]::GetRelativePath($PSScriptRoot, $_.FullName).Replace('\', '/')
+    $excluded -notcontains $relative
+  } |
+  ForEach-Object {
+    $relative = [IO.Path]::GetRelativePath($PSScriptRoot, $_.FullName).Replace('\', '/')
+    if ($relative -eq 'index.html') { $relative = '' }
+    [PSCustomObject]@{
+      Url = if ($relative) { "$baseUrl/$relative" } else { "$baseUrl/" }
+      Priority = if (-not $relative) { '1.0' } else { '0.8' }
+    }
+  }
 
-$entries = $pages | ForEach-Object {
-  @"
-  <url>
-    <loc>$baseUrl$($_.Path)</loc>
-    <lastmod>$lastModified</lastmod>
-    <priority>$($_.Priority)</priority>
-  </url>
-"@
+$entries = $pages | Sort-Object Url | ForEach-Object {
+  "  <url><loc>$($_.Url)</loc><lastmod>$lastModified</lastmod><priority>$($_.Priority)</priority></url>"
 }
 
 $xml = @"
@@ -32,5 +33,5 @@ $($entries -join "`n")
 "@
 
 $outputPath = Join-Path $PSScriptRoot 'sitemap.xml'
-[System.IO.File]::WriteAllText($outputPath, $xml, [System.Text.UTF8Encoding]::new($false))
-Write-Host "Generated $outputPath for $baseUrl"
+[IO.File]::WriteAllText($outputPath, $xml, [Text.UTF8Encoding]::new($false))
+Write-Host "Generated $outputPath with $($pages.Count) URLs for $baseUrl"

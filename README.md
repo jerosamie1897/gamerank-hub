@@ -1,6 +1,8 @@
 # GameRank Hub
 
-A fast, dependency-free static gaming website structured for global English organic search discovery.
+A fast, dependency-free static gaming website built around sourced game-fit profiles and focused practical guides.
+
+The library includes 30 sourced game profiles, practical guides, an editorial blog, an FAQ, original editorial illustrations, official privacy-enhanced video embeds, moderated comments, player ratings, dynamic recommendations, multilingual hubs, JSON-LD structured data, RSS, IndexNow, robots directives, and a sitemap.
 
 ## Preview
 
@@ -12,26 +14,32 @@ python -m http.server 8080
 
 Then visit `http://localhost:8080`.
 
+## Regenerate the content library
+
+```powershell
+python generate-content.py
+python generate-locales.py
+python generate-content.py
+```
+
+The generator rebuilds review, guide, blog, visual, search-index, sitemap, RSS, and content-report files. Run `python validate-site.py` afterward.
+
+The community API requires PHP 8.3 with PDO SQLite. Its database and secrets belong outside the web root at `/var/lib/gamerankhub` and `/etc/gamerankhub`.
+
 ## GitHub Pages deployment
 
-This site is configured for:
+The production canonical URL is:
 
-`https://jerosamie1897.github.io/gamerank-hub/`
-
-1. Create a public GitHub repository named `gamerank-hub`.
-2. Push this folder to the repository's `main` branch.
-3. Open **Settings → Pages** in GitHub.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and the `/ (root)` folder.
+`https://gamerankhub.com/`
 
 After deployment, verify the URL in Google Search Console and submit:
 
-`https://jerosamie1897.github.io/gamerank-hub/sitemap.xml`
+`https://gamerankhub.com/sitemap.xml`
 
-Before promoting the site, publish a monitored editorial email address, add original screenshots with descriptive `alt` text, and add 1200×630 social sharing images.
+Game profiles must link their primary official source, show a checked date, distinguish sourced facts from editorial interpretation, and disclose when no hands-on testing was performed. Do not describe generated illustrations as screenshots or evidence of testing.
 
 ## Content requirements
 
-Each new search page must have one primary intent, original analysis, accurate platform information, a visible author or editorial owner, and a meaningful review date. Game list pages should explain selection criteria and include specific games, comparisons, limitations, and links to related guides.
+Each new search page must have one primary intent, original analysis, accurate sourced platform information, a visible editorial owner, meaningful publication and checked dates, and an explicit limitation statement. Game list pages should explain selection criteria and include specific comparisons rather than generic category filler.
 
-Do not publish thin pages only to target keyword variations. Organic rankings are not guaranteed; continue improving pages using Search Console query and engagement data rather than keyword stuffing or artificial traffic.
+Do not publish thin pages only to target keyword variations or reuse paragraphs across nominally different articles. Organic rankings are not guaranteed; improve pages using Search Console query and engagement data rather than keyword stuffing, unsupported review schema, or artificial traffic.

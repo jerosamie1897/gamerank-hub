@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jerosamie1897.github.io/gamerank-hub/sitemap.xml
+Sitemap: https://gamerankhub.com/sitemap.xml
+Host: gamerankhub.com
